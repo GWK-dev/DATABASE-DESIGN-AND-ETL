@@ -8,7 +8,7 @@
 
 This repository contains my independent solutions for real-world relational database design and engineering challenges. For each case study, I execute a rigorous engineering process to translate narrative corporate workflows into production-ready schemas and automated ETL pipelines:
 
-* **Requirements Analysis**: Analyzed raw operational requirements ([`Company requirements document.docx`](./01-Database-Design/Company%20requirements%20document.docx)) to extract core business logic, entity attributes, and relational cardinalities.
+* **Requirements Analysis**: Analyzed raw operational requirements ([`Company requirements document.docx`](./01-Database-Design%20/Company%20requirements%20document.docx)) to extract core business logic, entity attributes, and relational cardinalities.
 * **Conceptual Modeling**: Mapped abstract tables, primary keys, and relationships visually using a standard Chen notation ER diagram ([`Company E.R Diagram.pdf`](./01-Database-Design/Company%20E.R%20Diagram.pdf)).
 * **Physical Modeling**: Reverse-engineered the schema inside MySQL Workbench to generate an industry-standard Crow's Foot notation physical ER diagram, validating keys and data types ([`Company_Physical_ER_Diagram.png`](./01-Database-Design/Company_Physical_ER_Diagram.png)).
 * **SQL Schema**: Wrote and executed clean MySQL DDL scripts ([`Company DB.sql`](./01-Database-Design/Company%20DB.sql)) to build the final database architecture with proper foreign key cascading constraints.
