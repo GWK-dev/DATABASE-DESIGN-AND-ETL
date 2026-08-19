@@ -9,9 +9,9 @@
 This repository contains my independent solutions for real-world relational database design and engineering challenges. For each case study, I execute a rigorous engineering process to translate narrative corporate workflows into production-ready schemas and automated ETL pipelines:
 
 * **Requirements Analysis**: Analyzed raw operational requirements ([`Company requirements document.docx`](./01-Database-Design%20/Company%20requirements%20document.docx)) to extract core business logic, entity attributes, and relational cardinalities.
-* **Conceptual Modeling**: Mapped abstract tables, primary keys, and relationships visually using a standard Chen notation ER diagram ([`Company E.R Diagram.pdf`](./01-Database-Design/Company%20E.R%20Diagram.pdf)).
-* **Physical Modeling**: Reverse-engineered the schema inside MySQL Workbench to generate an industry-standard Crow's Foot notation physical ER diagram, validating keys and data types ([`Company_Physical_ER_Diagram.png`](./01-Database-Design/Company_Physical_ER_Diagram.png)).
-* **SQL Schema**: Wrote and executed clean MySQL DDL scripts ([`Company DB.sql`](./01-Database-Design/Company%20DB.sql)) to build the final database architecture with proper foreign key cascading constraints.
+* **Conceptual Modeling**: Mapped abstract tables, primary keys, and relationships visually using a standard Chen notation ER diagram ([`Company E.R Diagram.pdf`](./01-Database-Design%20/Company%20E.R%20Diagram.pdf)).
+* **Physical Modeling**: Reverse-engineered the schema inside MySQL Workbench to generate an industry-standard Crow's Foot notation physical ER diagram, validating keys and data types ([`Company_Physical_ER_Diagram.png`](./01-Database-Design%20/Company_Physical_ER_Diagram.png)).
+* **SQL Schema**: Wrote and executed clean MySQL DDL scripts ([`Company DB.sql`](./01-Database-Design%20/Company%20DB.sql)) to build the final database architecture with proper foreign key cascading constraints.
 * **ETL Pipeline**: Built a dependency-aware Python script in Jupyter Notebook ([`company_db.ipynb`](./etl/company_db.ipynb)) using `SQLAlchemy` and `pandas` to resolve circular foreign key constraints during automated data ingestion from [`company_data.xlsx`](./etl/company_data.xlsx).
 * **Dynamic Rate Engineering**: Executed multi-step SQL queries to dynamically compute tiered hourly pay rates based on corporate hierarchy (Base Staff, Supervisors, Executive Leadership).
 * **Automated Financial Reporting**: Leveraged SQL CTEs and `openpyxl` to aggregate departmental spend, project labor costs, and dependent family allowance bonuses, writing formatted analytical summaries back to dedicated sheets in [`company_data.xlsx`](./etl/company_data.xlsx).
@@ -20,10 +20,10 @@ This repository contains my independent solutions for real-world relational data
 
 ## 📂 Case Study Assets (`company_db`)
 
-* 📄 **Requirements**: [Company requirements document.docx](./01-Database-Design/Company%20requirements%20document.docx)
-* 📊 **Conceptual Blueprint (Chen Notation)**: [Company E.R Diagram.pdf](./01-Database-Design/Company%20E.R%20Diagram.pdf)
-* 📉 **Physical Blueprint (Crow's Foot)**: [Company_Physical_ER_Diagram.png](./01-Database-Design/Company_Physical_ER_Diagram.png)
-* 💾 **SQL Script**: [Company DB.sql](./01-Database-Design/Company%20DB.sql)
+* 📄 **Requirements**: [Company requirements document.docx](./01-Database-Design%20/Company%20requirements%20document.docx)
+* 📊 **Conceptual Blueprint (Chen Notation)**: [Company E.R Diagram.pdf](./01-Database-Design%20/Company%20E.R%20Diagram.pdf)
+* 📉 **Physical Blueprint (Crow's Foot)**: [Company_Physical_ER_Diagram.png](./01-Database-Design%20/Company_Physical_ER_Diagram.png)
+* 💾 **SQL Script**: [Company DB.sql](./01-Database-Design%20/Company%20DB.sql)
 * 📓 **ETL & Data Analysis Notebook**: [company_db.ipynb](./etl/company_db.ipynb)
 * 📊 **Source & Export Workbook**: [company_data.xlsx](./etl/company_data.xlsx)
 
